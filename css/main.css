@@ -177,9 +177,9 @@ body {
     text-align: center;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 768px) {
     .header {
-        font-size: 4rem;
+        font-size: 2.5rem;
     }
 
     .logo {
@@ -190,10 +190,17 @@ body {
         font-size: 1rem;
     }
 
+    .info {
+        margin-top: 5rem;
+        height: auto;
+    }
+
+    .buttons {
+        flex-direction: column;
+    }
+
     .button {
-        padding: 0.5rem 1rem;
-        margin: 1rem;
-        font-size: 1rem;
+        margin: 1.2rem;
     }
 
     .icon {
