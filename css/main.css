@@ -83,6 +83,7 @@ body {
     font-size: 1.5rem;
     color: white;
     margin: 0;
+    text-align: center;
 }
 
 .buttons {
@@ -174,4 +175,32 @@ body {
     align-items: center;
     margin: 2rem;
     text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+    .header {
+        font-size: 4rem;
+    }
+
+    .logo {
+        width: 50%;
+    }
+
+    .description {
+        font-size: 1rem;
+    }
+
+    .button {
+        padding: 0.5rem 1rem;
+        margin: 1rem;
+        font-size: 1rem;
+    }
+
+    .icon {
+        width: 20vw;
+    }
+
+    .title {
+        font-size: 1rem;
+    }
 }
